@@ -1,0 +1,8 @@
+prefix=/home/lafrelle/FPMagang/devel
+
+Name: FP_Magang
+Description: Description of FP_Magang
+Version: 0.0.0
+Cflags: -I/home/lafrelle/FPMagang/devel/include -I/home/lafrelle/FPMagang/src/FP_Magang/include
+Libs: -L${prefix}/lib -lFP_Magang
+Requires: roscpp rospy message_runtime std_msgs
